@@ -1,0 +1,151 @@
+*{
+
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Asap Condensed', sans-serif;
+}
+.header{
+    width: 100%;
+    background-color: whitesmoke;
+}
+.content{
+    background-color: whitesmoke;
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+.navhead{
+
+}
+.logo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.logo .a{
+    text-decoration: none;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.logo .txt{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Pacifico', cursive;
+    color: #ed1c24;
+}
+.nav{
+    margin-top: 50px;
+
+}
+.navlist{
+    margin: 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist li a {
+    border: 5px solid #58585a;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+.navlist li a:hover{
+    background-color: #f2fffb;
+}
+
+.box{    
+    background-color: #e7f0ed; 
+    width: 1200px; 
+    margin: 60px auto;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 5px 20px 20px 15px #000000a1;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 52px; margin: 0;
+}
+h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 42px; 
+    margin: 0;
+    padding: 50px;
+}
+P{
+    font-size: 1.5em;
+    padding: 5px;
+}
+.pp{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #cd1dcd;
+    background-color: gray;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.gallery{
+    text-align: center;
+    margin: 0 auto;
+
+}
+.gallery-box{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.gallery-img{
+    
+}
+.gallery-box img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 1px solid #72757cdb;
+    padding: 0px;
+    margin: 5px;
+}
+
+.contact{
+    width: 1200px; 
+    text-align: center;
+    margin: 0 auto;
+}
+
+.social{
+    list-style: none;
+    padding: 0;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.social li a{
+    color: #590ac0;
+    font-size: 24px;
+    text-decoration: none;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 20px;
+}
+.social li a:hover{
+    background-color: #deccf5;
+}
